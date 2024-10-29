@@ -1,0 +1,422 @@
+body {
+	font-family: 'Open Sans';font-size: 13px; 
+}
+img {
+	max-width:100%;
+}
+
+.header-block {
+	padding-top:60px;
+}
+.header-block-data {
+	padding-bottom:60px;
+}
+.header-title {
+	font-size:18px;
+	font-weight:700;	
+	color: #222222;
+	margin-bottom:30px;
+}
+.header-title span::before {
+  content: "\A";
+  white-space: pre;
+}
+.header-title span::after{
+  content: "\A";
+  white-space: pre;
+}
+.header-title span  {
+	font-size:46px;
+	font-weight:800;
+	color: #00a1cb;
+}
+.ucp-side {
+	min-height:100%;
+	height:100%;
+}
+.ucpbg-side-left {
+	background:#00a1cb;	
+}
+.ucpbg-side-right, .ucpbg-side-right .bg {
+	background:#ffffff;
+}
+.ucp-block {
+	/*padding:40px 15px 0;*/
+	padding-top:20px;
+}
+
+.type-wrap {
+
+	
+}
+.ucp-align-center {
+	clear: both;
+	float: none;
+	margin: 0 auto;
+	padding-top: 20%;
+	font-weight: 200;
+	font-size: 40px;
+	color: #ffffff;
+	overflow-wrap: break-word;
+}
+
+/* COUNTDOWN */
+#defaultCountdown {
+	display:none;
+}
+.countdown-timer {
+	padding-bottom:60px;
+}
+.timer-unit {
+	margin-right: 30px;
+	float:left;
+}
+.timer-unit .text-timer {
+	border-top:2px solid #ffffff;
+}
+.timer-unit:first-child .text-timer {
+	border-top:2px solid #303030;
+}
+.timer-unit .text-timer {
+	font-size: 44px;
+	font-weight: 700;
+	color : #303030;
+}
+.timer-unit .text  {
+	font-size: 18px;
+	font-weight: 300;
+	color : #303030;
+	font-style: italic;
+}
+
+/* Subscribe */
+.subscribe-block {
+	
+}
+.subscribe-block .subscribe-title {
+	padding-bottom:10px;
+	color: #9f9f9f;
+	font-size:13px;
+	font-weight:300;
+	font-style: italic;
+	
+}
+.form-subscribe {
+	position:relative;
+	width:240px;
+	padding-bottom:20px;
+}
+.form-subscribe input {
+	background-color:#dcdcdc;
+	border-color:#dcdcdc;
+	font-size:13px;
+	color:#7d7d7d;
+	height:45px;
+	padding:11px;
+	width:100%;
+	font-size:13px;
+	font-weight:500;
+	border: 0;
+	box-shadow: none;
+	border-radius: 0px;
+}
+.form-subscribe button i.fa {
+	font-size:20px;
+}
+.form-subscribe button {
+	background-color:#dcdcdc;
+	color:#999999;
+	font-size:13px;
+	position:absolute;
+	right:4px;
+	top:4px;
+	text-align:center;
+	padding:8px 15px;
+	border:0px solid #ffffff;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+.form-subscribe button:hover i.fa{
+		color: #00a1cb;
+	}
+
+
+/* ABOUT */
+.section-about {
+	padding-top: 35px;
+	padding-bottom: 80px;
+}
+.h-section-title {
+	font-size: 30px;
+	font-weight: 500;
+	color: #333333;
+	font-family: 'Raleway';
+}
+.h-section-tagline {
+	font-size:20px;
+	font-weight:300;
+	color: #666666;
+	padding-bottom:30px;
+	font-family: 'Raleway';
+}
+.h-section-description {
+	font-size:13px;
+	font-weight:400;
+	color: #999999;
+}
+
+/* SERVICE */
+.section-service {
+	margin-bottom:80px;
+}
+.service-block {
+	margin-bottom: 30px;
+}
+.service-block .service-icon {
+	line-height:88px;
+	width:88px;
+	height:88px;
+	margin: 0 auto 24px;
+	
+	text-align:center;
+	border-radius:50%;
+	color:#ffffff;
+	background-color:#cccccc;
+}
+.service-block .service-icon i {
+	font-size: 36px;
+	line-height: 88px;
+	
+}
+.service-block .service-icon:hover {
+	background-color:#00a1cb;
+}
+.service-block .service-title {
+	font-weight:500;
+	font-size:18px;
+	color:#333333;
+	padding-bottom:10px;
+	font-family: 'Raleway';
+}
+.service-block .service-tagline {
+	font-weight:300;
+	font-size:20px;
+	margin-bottom:30px;
+	color: #666666;
+	
+}
+.service-block .service-description {
+	font-size:13px;
+	color: #999999;
+	font-weight:400;
+}
+
+/* TEAM */
+.section-team {
+	
+}
+.section-team-bg{
+	background: #f6f6f6;
+	padding:20px 20px;
+	margin-bottom:80px;
+}
+.team-block {
+	margin-bottom:20px;
+}
+.team-block .team-title {
+	font-size: 18px;
+	font-weight: 500;
+	color: #333333;	
+	font-family: 'Raleway';
+}
+.team-block .team-tagline {
+	font-size: 13px;
+	font-weight: 400;
+	color: #999999;
+	margin-bottom:10px;
+}
+.team-block .team-description {
+	font-size: 13px;
+	font-weight: 400;
+	color: #999999;
+	padding-bottom:10px;
+}
+.team-block .team-social  ul {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+.team-block .team-social ul li {
+	float:left;
+	margin-bottom:8px;
+	margin-right:5px;	
+	
+	
+}
+.team-block .team-social ul li:last-child {
+	margin-right:0px;
+}
+.team-block .team-social ul li  i{
+	height:26x;
+	width:26px;
+	background:#ffffff;
+	line-height:26px;
+	text-align:center;
+	border:1px solid #d6d6d6;
+	font-size:15px;
+}
+.team-block .team-social ul li  i:hover{
+	background:#000000;
+}
+.team-block .team-social ul li  a{
+	color:#999999;
+	height:26x;
+	width:26px;
+}
+.team-block .team-social  ul li  a:hover{
+	color: #ffffff;
+}
+
+/* contact */
+#form-contact div {
+	margin-bottom:20px;
+}
+#form-contact  input, #form-contact  textarea {
+	background-color:#dcdcdc;
+	border-color:#dcdcdc;
+	font-size:13px;
+	color:#7d7d7d;
+	padding:11px;
+	width:100%;
+	font-size:13px;
+	font-weight:500;
+	border:1px solid #f6f6f6;
+	box-shadow: none;
+	border-radius: 0px;
+	background-color: #ffffff;
+}
+#form-contact  input {
+	height:45px;
+}
+#form-contact  textarea{
+	height:150px;
+}
+#form-contact button {
+	padding: 5px 15px;
+	border: none;
+	outline:none;
+	background-color:#cccccc;
+	font-weight:500;
+	font-size: 14px;
+	color:#ffffff;
+}
+#form-contact button:hover {
+	color: #ffffff;
+	background-color:#00a1cb;
+	
+}
+
+/*
+CONTACT
+*/
+.h3-contact {
+	font-family: 'Raleway';
+	font-size: 18px;
+	font-weight: 600;
+	color:#333333;
+	margin-bottom: 20px;
+}
+.div-contact {
+	margin-bottom:30px;
+}
+.div-contact ul {
+	list-style : none;
+	margin:0;
+	padding:0;
+	color:#999999;
+	font-size:13px;
+	margin-bottom:20px;
+	
+}
+.div-contact ul  li  {
+	margin-bottom:10px;
+}
+.div-contact ul  li  .tlabel{
+	width:30px;
+	float:left;
+}
+.div-contact ul  li  .tlabel i{
+	height:20px;
+	line-height:20px;
+}
+.div-contact ul  li .span{
+	margin-left:30px;
+}
+.div-contact-divider {
+	margin-top:20x;
+	width:60px;
+	border-bottom:3px solid #999999;
+}
+/**
+* 5. Social
+*
+* Description of section, whether or not it has media queries, etc.
+*/
+.div-social {
+	padding-bottom:30px;
+}
+.div-social ul {
+	list-style : none;
+	margin:0;
+	padding:0;
+	float:left;
+}
+.div-social ul li {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 8px;
+	
+	
+}
+
+.div-social ul li  i{
+	font-size: 20px;
+}
+.div-social ul li  i{
+	width: 35px;
+	height: 35px;
+	line-height: 35px;	
+	text-align: center;
+	background-color: #eaeaea;
+}
+.div-social ul li  i:hover {
+	background-color: #303030;
+}
+.div-social ul li  a {
+	color: #696969;
+}
+.div-social ul li  a:hover {
+	color: #ffffff;
+}
+.div-social ul li:last-child {
+	margin-right: 0px;
+	
+}
+
+
+.section-bottom {
+	min-height:30px;
+}
+
+@media (max-width: 768px) {
+	.ucp-side {
+		height:auto;
+		min-height:500px;
+	}
+	.header-title span  {
+		font-size:30px;
+	}
+}

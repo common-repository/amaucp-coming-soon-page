@@ -1,0 +1,9 @@
+Default Feature Order from 200 - 300
+- Quote : 'order' => 201
+- About : 'order' => 202
+- Service : 'order' => 203
+- Team : 'order' => 204
+- Contact : 'order' => 205
+
+Default Plugin Order from 400 - 500
+Default Theme Order from 600 - 700
